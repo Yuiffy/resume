@@ -1,10 +1,10 @@
 {
   "data_lang": "en-US",
   "ga_id": "UA-63818301-2",
-  "resume_title": "董羽飞 - 个人简历",
-  "name": "董羽飞",
+  "resume_title": "Dong Yufei - resume",
+  "name": "Dong Yufei",
   "repo": "https://github.com/Yuiffy/resume.git",
-  "job_description": ["后端工程师", "软件工程师"],
+  "job_description": ["Software Engineer"],
   "contact": {
     "email": "yuiffy@foxmail.com",
     "wechat": {
@@ -26,15 +26,15 @@
   }],
   "education": [{
     "type": "undergraduate",
-    "name": "哈尔滨工业大学",
-    "major": "计算机科学与技术",
+    "name": "Harbin Institute of Technology",
+    "major": "Computer Science and Technology",
     "start": "2012",
     "end": "2016",
     "honor": [
-      "2014 第39届ACM国际大学生程序设计竞赛**亚洲区域赛 鞍山站铜牌、北京站铜牌**",
-      "2014 ACM国际大学生程序设计竞赛**北京邀请赛铜牌**",
-	  "2014 ACM国际大学生程序设计竞赛**东北四省赛一等奖**",
-	  "2014 ACM国际大学生程序设计竞赛**黑龙江省赛一等奖**"
+      "2014 39th ACM-ICPC International Collegiate Programming Contest**Asia Anshan Regional Contest Bronze Medal、Beijing Regional Bronze Medal**",
+      "2014 2014 ACM-ICPC **China Beijing Invitational Programming Contest Bronze Medal**",
+	  "2014 2014 ACM-ICPC **China Northeast MultiProvincial Programming Contests First Prize**",
+	  "2014 2014 ACM-ICPC **China Heilongjiang Provincial Programming Contest First Prize**"
     ]
   }],
   "language": [{
@@ -49,21 +49,21 @@
       "score": "409"
     }],
     "description": [
-      "能够阅读英文文档及其他资料",
-      "能够在英文邮件列表、Stack Overflow 等社区正常交流"
+      "Able to read English documents and other information",
+      "Able to communicate on communities such as StackOverflow"
     ]
   }],
   "experience": [{
     "type": "no",
     "techtype": "fullstack",
-    "place": "深圳 TCL多媒体 海外软件所 技术组",
+    "place": "Overseas SW Dpt, Tcl Multimedia R&D, Shenzhen",
     "start": "2016.9",
-    "end": "至今",
-    "name": "软件开发",
+    "end": "present",
+    "name": "Software Developer",
     "description": [
-      "参与内部翻译系统重构、二期新增功能，优化数据库表结构、重写检索逻辑",
-      "负责海外区域安卓系统预装应用相关的问题分析、对第三方提供技术支持",
-      "进行技术分享培训，如git基础教程"
+      "Participate in the internal translation system reconstruction, add new features, optimize the database table structure, rewrite the search logic",
+      "overseas area Android system pre-installed application-related problems analysis, to provide technical support to third parties",
+      "To share technology lesson, such as git basic tutorial"
     ],
     "stack": ["git", "spring", "hibernate", "sql", "android"],
     "compatibility": "?"
