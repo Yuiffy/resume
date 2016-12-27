@@ -1,7 +1,8 @@
 module.exports = {
     experience_type: {
         "internship": "(internship)",
-		"test":"(probationary period)"
+		"test":"(probationary period)",
+		"no":""
     },
     skill_type: {
         "frontend": "Frontend Development",
@@ -35,5 +36,12 @@ module.exports = {
             "en": "Skills"
         }
     },
-    lt_ie8_comment: "You are using IE8 or lower version of IE, which is not supported."
+    lt_ie8_comment: "You are using IE8 or lower version of IE, which is not supported.",
+	dict: {
+        source_code: "Source Code",
+        demo: "Demo"
+    },
+    project_type: {
+        "personal": "Personal Project"
+    }
 };
