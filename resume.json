@@ -70,13 +70,13 @@
   }, {
     "type": "internship",
     "techtype": "backend",
-    "place": "LINE大连",
+    "place": "LINE, Dalian",
     "start": "2015.07",
     "end": "2015.09",
-    "name": "软件开发",
+    "name": "Software Developer",
     "description": [
-      "参与`内部java WEB应用`（知识分享平台、HR招聘系统）开发，参与需求分析、总体设计、部分模块前后端实现",
-      "使用`Spring Boot / Thymeleaf / mybatis / mysql / jquery / bootstrap`"
+      "Participate in the internal java WEB application (knowledge sharing platform, HR recruitment system) development, participate in needs analysis, the overall design, implement part of the modules frontend and backend",
+      "use `Spring Boot / Thymeleaf / mybatis / mysql / jquery / bootstrap`"
     ],
     "stack": [],
     "compatibility": "?"
@@ -84,11 +84,11 @@
     "type": "project",
     "techtype": "backend",
     "project_type": "personal",
-    "name": "机器学习-预测airbnb新用户会选择的旅游国家",
+    "name": "Meachine Learning-Predict Airbnb New User Will Choose Which Country",
     "description": [
-      "毕业设计，利用机器学习方法，根据用户的性别年龄等属性对新用户将要选择的国家进行预测",
-      "使用`xgboost`作为主要预测模型，python的numpy、pandas等进行数据预处理，最后对多个模型进行模型集成",
-      "在机器学习竞赛网站Kaggle上已结束的相应比赛中，达到1462名参赛者中第38名的水平"
+      "Graduation design, using the machine learning method, according to the user's gender, age, and other attributes of the new user to predict the country that the user will select",
+      "Using `xgboost` as the main predictive model, python's numpy, pandas to do data preprocessing, and finally use a number of models for model ensemble",
+      "Reached the score of 38th in the 1462 contestants in the respective competition concluded on the machine learning contest website Kaggle"
     ],
     "stack": [],
     "compatibility": "?"
@@ -96,12 +96,12 @@
     "type": "project",
     "techtype": "backend",
     "project_type": "personal",
-    "name": "安卓游戏 神奇宝贝防御战",
+    "name": "Android Game:Pokemon Defense",
     "demo": "http://www.cnblogs.com/yuiffy/p/4320156.html",
     "description": [
-      "三人合作使用`Unity引擎`制作的3D类塔防游戏",
-      "负责游戏整体构想、细节设计、开发、测试",
-      "负责游戏角色行动、属性数值变化和AI方面的设计、`c#`、`js`脚本编写"
+      "Three mates use the `Unity engine` produced 3D tower defense game",
+      "Participate in the overall concept of the game, the details of the design, development, testing",
+      "`c#`, `js` scripting for the action of roles, attribute value changes and AI"
     ],
     "stack": [],
     "compatibility": "?"
@@ -109,9 +109,9 @@
     "type": "project",
     "techtype": "backend",
     "project_type": "personal",
-    "name": "PC端 哈弗曼压缩软件",
+    "name": "Huffman compression software",
     "description": [
-      "独立用`C++`完成的利用`哈夫曼编码`的压缩软件，能对书籍类文件进行有效的压缩"
+      "a `Huffman coding` compression software wrote by `C++`, can effectively compress the text files"
     ],
     "stack": [],
     "compatibility": "?"
@@ -119,11 +119,11 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "html5游戏 贪吃蛇、超级玛丽demo",
+    "name": "html5 game : Snake & Mario demo",
     "demo": "http://www.yuiffy.com/",
     "description": [
-      "独立完成的静态网页小游戏demo，使用`canvas`进行绘图",
-      "贪吃蛇支持触屏设备滑动操作"
+      "html game demo，use `canvas` to draw map and roles",
+      "Snake support for touch-screen device sliding operation"
     ],
     "stack": [],
     "compatibility": "?"
@@ -131,11 +131,11 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "微信订阅号 聊天机器人 机智人生",
+    "name": "Wechat Subcription server: chat robot Jizhi",
     "demo": "http://mp.weixin.qq.com/s?__biz=MzI2MzM5MTQ5Mg==&mid=2247483668&idx=1&sn=5134e3699adb3ca24abc71e418b87243#wechat_redirect",
     "description": [
-      "订阅号后台连接到自定的后端服务器，后端服务器程序使用python的`Flask`框架开发",
-      "会记录用户每次回答机器人的语句，当用户发言时，寻找余弦相似度最高的语句来回应"
+      "The back end connects to a custom backend server, and the server software developed by python's `Flask` framework",
+      "Will record the sentence that users answer the robot，when the user speak, find the answer of sentence with highest similarity of the cosine to respose"
     ],
     "stack": [],
     "compatibility": "?"
