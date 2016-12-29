@@ -145,8 +145,8 @@
     "item": [{
       "summary": "`HTML` / `CSS` / `JavaScript`",
       "description": [
-        "了解基本的HTML、CSS语法，能够独立实现简单布局的网页",
-		"了解javascript基本语法，能够编写表单验证或网页游戏的业务逻辑代码"
+        "Understand the basic HTML, CSS syntax, can achieve a simple layout of the web pages",
+		"Understand the basic syntax of javascript, have the ability to write form validation or web game logic code"
       ]
     }]
   }, {
@@ -154,26 +154,26 @@
     "item": [{
       "summary": "`Java`",
       "description": [
-        "能够使用 `Spring Boot` / `Thymeleaf` / `Spring Data JPA` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
-        "了解MVC模型，熟悉Java的面向对象编程思想"
+        "Can use the `Spring Boot` /` Thymeleaf` / `Spring Data JPA` build a simple back-end procedures and database interaction, rendering templates and provide` RESTful API`",
+        "Understand the MVC model, familiar with Java's object-oriented programming ideas"
       ]
     }, {
-      "summary": "其他",
+      "summary": "Other",
       "description": [
-        "使用 `Flask`（`Python`） 搭建过简单的服务器",
-        "使用 `MySQL` 数据库",
-        "了解 `HTTP`、 `TCP/IP` 协议"
+        "Use `Flask` (` Python`) to build a simple server",
+        "Use the `MySQL` database",
+        "Understand `HTTP`,` TCP / IP` protocol"
       ]
     }]
   }, {
     "type": "miscellaneous",
     "item": [
-	  "从小学二年级开始接触`Pascal`语言、学习算法与数据结构，初中到高中持续参加`信息学竞赛`，大学参加`ACM算法竞赛`",
-      "熟练使用`C语言`，掌握常用的`数据结构`与`算法`，了解各种算法时间复杂度，熟悉常见的C++`STL`使用",
-      "学习了计算机网络、操作系统、计算机体系结构、数据库系统、数据结构与算法等课程",
-      "CCF软件能力认证 400/500",
-      "日常使用 `Git` 进行版本控制，也乐于尝试新工具",
-      "个人经历：在学校担任C语言实验课助教3个学期"
+	  "From the second grade of primary school began to contact `Pascal` language, learning algorithms and data structures, junior high school continued to participate in the 'National Olympiad in Informatics in Provinces', in college participated in the` ACM algorithm competition `",
+      "Skilled use of `C language`, understand the commonly used `data structure` and `algorithm`, understand the time complexity of common algorithms, familiar with the common C++ `STL` use",
+      "studied courses about computer networks, operating systems, computer architectures, database systems, data structures and algorithms",
+      "CCF Certified Software Professionals 400/500",
+      "use `Git` for version control, and also willing to try new tools",
+      "Personal experience: in the university as a C language experimental teaching assistant 3 semesters"
     ]
   }]
 }
