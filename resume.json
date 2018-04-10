@@ -1,11 +1,12 @@
 {
-  "data_lang": "en-US",
+  "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "Dong Yufei - resume",
-  "name": "Dong Yufei",
+  "resume_title": "董羽飞 - 个人简历",
+  "name": "董羽飞",
   "repo": "https://github.com/Yuiffy/resume.git",
-  "job_description": ["Software Engineer"],
+  "job_description": ["前端工程师", "后端工程师"],
   "contact": {
+    "phone": "https://www.linkedin.com/in/yuiffy/",
     "email": "yuiffy@foxmail.com",
     "wechat": {
       "id": "Yuiffy",
@@ -26,15 +27,15 @@
   }],
   "education": [{
     "type": "undergraduate",
-    "name": "Harbin Institute of Technology",
-    "major": "Computer Science and Technology",
+    "name": "哈尔滨工业大学",
+    "major": "计算机科学与技术",
     "start": "2012",
     "end": "2016",
     "honor": [
-      "2014 39th ACM-ICPC International Collegiate Programming Contest**Asia Anshan Regional Contest Bronze Medal、Beijing Regional Bronze Medal**",
-      "2014 2014 ACM-ICPC **China Beijing Invitational Programming Contest Bronze Medal**",
-	  "2014 2014 ACM-ICPC **China Northeast MultiProvincial Programming Contests First Prize**",
-	  "2014 2014 ACM-ICPC **China Heilongjiang Provincial Programming Contest First Prize**"
+      "2014 第39届ACM国际大学生程序设计竞赛**亚洲区域赛 鞍山站铜牌、北京站铜牌**",
+      "2014 ACM国际大学生程序设计竞赛**北京邀请赛铜牌**",
+	  "2014 ACM国际大学生程序设计竞赛**东北四省赛一等奖**",
+	  "2014 ACM国际大学生程序设计竞赛**黑龙江省赛一等奖**"
     ]
   }],
   "language": [{
@@ -49,34 +50,35 @@
       "score": "409"
     }],
     "description": [
-      "Able to read English documents and other information",
-      "Able to communicate on communities such as StackOverflow"
+      "能够阅读英文文档及其他资料",
+      "能够在英文邮件列表、Stack Overflow 等社区正常交流"
     ]
   }],
   "experience": [{
     "type": "no",
     "techtype": "fullstack",
-    "place": "Overseas SW Dpt, Tcl Multimedia R&D, Shenzhen",
+    "place": "深圳 TCL多媒体 海外软件所 技术组",
     "start": "2016.9",
-    "end": "present",
-    "name": "Software Developer",
+    "end": "至今",
+    "name": "软件开发",
     "description": [
-      "Participate in the internal translation system reconstruction, add new features, optimize the database table structure, rewrite the search logic",
-      "overseas area Android system pre-installed application-related problems analysis, to provide technical support to third parties",
-      "To share technology lesson, such as git basic tutorial"
+      "参与java web项目翻译系统二期开发，优化数据库表结构、重写检索逻辑，使检索速度提升20倍。",
+      "html前端开发，使用Angular框架，独立完成两个模块开发，参与其他模块bug修复",
+      "负责海外区域安卓系统预装应用相关的问题分析、对第三方提供技术支持",
+      "进行技术分享培训，如git教程"
     ],
     "stack": ["git", "spring", "hibernate", "sql", "android"],
     "compatibility": "?"
   }, {
     "type": "internship",
     "techtype": "backend",
-    "place": "LINE, Dalian",
+    "place": "LINE大连",
     "start": "2015.07",
     "end": "2015.09",
-    "name": "Software Developer",
+    "name": "软件开发",
     "description": [
-      "Participate in the internal java WEB application (knowledge sharing platform, HR recruitment system) development, participate in needs analysis, the overall design, implement part of the modules frontend and backend",
-      "use `Spring Boot / Thymeleaf / mybatis / mysql / jquery / bootstrap`"
+      "参与`内部java WEB应用`（知识分享平台、HR招聘系统）开发，参与需求分析、总体设计、部分模块前后端实现",
+      "使用`Spring Boot / Thymeleaf / mybatis / mysql / jquery / bootstrap`"
     ],
     "stack": [],
     "compatibility": "?"
@@ -84,34 +86,23 @@
     "type": "project",
     "techtype": "backend",
     "project_type": "personal",
-    "name": "Meachine Learning-Predict Airbnb New User Will Choose Which Country",
+    "name": "冻鳗榜单王",
+    "demo": "http://rank.yuiffy.com/",
     "description": [
-      "Graduation design, using the machine learning method, according to the user's gender, age, and other attributes of the new user to predict the country that the user will select",
-      "Using `xgboost` as the main predictive model, python's numpy, pandas to do data preprocessing, and finally use a number of models for model ensemble",
-      "Reached the score of 38th in the 1462 contestants in the respective competition concluded on the machine learning contest website Kaggle"
+      "业余时间独立开发的榜单网站，java web后台，Spring Boot框架",
+      "包含账号管理、用户打分评论、小组新建榜单等功能，仍在运作中"
     ],
     "stack": [],
     "compatibility": "?"
-  }, {
+  },{
     "type": "project",
     "techtype": "backend",
     "project_type": "personal",
-    "name": "Android Game:Pokemon Defense",
-    "demo": "http://www.cnblogs.com/yuiffy/p/4320156.html",
+    "name": "机器学习-预测airbnb新用户会选择的旅游国家",
     "description": [
-      "Three mates use the `Unity engine` produced 3D tower defense game",
-      "Participate in the overall concept of the game, the details of the design, development, testing",
-      "`c#`, `js` scripting for the action of roles, attribute value changes and AI"
-    ],
-    "stack": [],
-    "compatibility": "?"
-  }, {
-    "type": "project",
-    "techtype": "backend",
-    "project_type": "personal",
-    "name": "Huffman compression software",
-    "description": [
-      "a `Huffman coding` compression software wrote by `C++`, can effectively compress the text files"
+      "毕业设计，利用机器学习方法，根据用户的性别年龄等属性对新用户将要选择的国家进行预测",
+      "使用`xgboost`作为主要预测模型，python的numpy、pandas等进行数据预处理，最后对多个模型进行模型集成",
+      "在机器学习竞赛网站Kaggle上已结束的相应比赛中，达到1462名参赛者中第38名的水平"
     ],
     "stack": [],
     "compatibility": "?"
@@ -119,23 +110,47 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "html5 game : Snake & Mario demo",
-    "demo": "http://www.yuiffy.com/",
-    "description": [
-      "html game demo，use `canvas` to draw map and roles",
-      "Snake support for touch-screen device sliding operation"
-    ],
-    "stack": [],
-    "compatibility": "?"
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "Wechat Subcription server: chat robot Jizhi",
+    "name": "微信订阅号 聊天机器人 机智人生",
     "demo": "http://mp.weixin.qq.com/s?__biz=MzI2MzM5MTQ5Mg==&mid=2247483668&idx=1&sn=5134e3699adb3ca24abc71e418b87243#wechat_redirect",
     "description": [
-      "The back end connects to a custom backend server, and the server software developed by python's `Flask` framework",
-      "Will record the sentence that users answer the robot，when the user speak, find the answer of sentence with highest similarity of the cosine to respose"
+      "订阅号后台连接到自定的后端服务器，后端服务器程序使用python的`Flask`框架开发",
+      "会记录用户每次回答机器人的语句，当用户发言时，寻找合适的语句回应",
+      "加入了计算24点功能，能根据用户给出的4个数字返回多种解法"
+    ],
+    "stack": [],
+    "compatibility": "?"
+  }, {
+    "type": "project",
+    "techtype": "backend",
+    "project_type": "personal",
+    "name": "安卓游戏 神奇宝贝防御战",
+    "demo": "http://www.cnblogs.com/yuiffy/p/4320156.html",
+    "description": [
+      "三人合作使用`Unity引擎`制作的3D类塔防游戏",
+      "负责游戏整体构想、细节设计、开发、测试",
+      "负责游戏角色行动、属性数值变化和AI方面的设计、`c#`、`js`脚本编写"
+    ],
+    "stack": [],
+    "compatibility": "?"
+  }, {
+    "type": "project",
+    "techtype": "backend",
+    "project_type": "personal",
+    "name": "PC端 哈弗曼压缩软件",
+    "description": [
+      "独立用`C++`完成的利用`哈夫曼编码`的压缩软件，能对书籍类文件进行有效的压缩"
+    ],
+    "stack": [],
+    "compatibility": "?"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "html5游戏 贪吃蛇、超级玛丽demo",
+    "demo": "http://www.yuiffy.com/",
+    "description": [
+      "独立完成的静态网页小游戏demo，使用`canvas`进行绘图",
+      "贪吃蛇支持触屏设备滑动操作"
     ],
     "stack": [],
     "compatibility": "?"
@@ -145,8 +160,8 @@
     "item": [{
       "summary": "`HTML` / `CSS` / `JavaScript`",
       "description": [
-        "Understand the basic HTML, CSS syntax, can achieve a simple layout of the web pages",
-		"Understand the basic syntax of javascript, have the ability to write form validation or web game logic code"
+        "了解基本的HTML、CSS语法，能够独立实现响应式的页面",
+		"了解javascript基本语法，熟悉AngularJS，能够编写UI菜单、网页游戏的业务逻辑代码"
       ]
     }]
   }, {
@@ -154,26 +169,26 @@
     "item": [{
       "summary": "`Java`",
       "description": [
-        "Can use the `Spring Boot` /` Thymeleaf` / `Spring Data JPA` build a simple back-end procedures and database interaction, rendering templates and provide` RESTful API`",
-        "Understand the MVC model, familiar with Java's object-oriented programming ideas"
+        "能够使用 `Spring Boot` / `Thymeleaf` / `Spring Data JPA` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
+        "了解MVC模型，熟悉Java的面向对象编程思想"
       ]
     }, {
-      "summary": "Other",
+      "summary": "其他",
       "description": [
-        "Use `Flask` (` Python`) to build a simple server",
-        "Use the `MySQL` database",
-        "Understand `HTTP`,` TCP / IP` protocol"
+        "使用 `Flask`（`Python`） 搭建过简单的服务器",
+        "使用 `MySQL` 数据库",
+        "了解 `HTTP`、 `TCP/IP` 协议"
       ]
     }]
   }, {
     "type": "miscellaneous",
     "item": [
-	  "From the second grade of primary school began to contact `Pascal` language, learning algorithms and data structures, junior high school continued to participate in the 'National Olympiad in Informatics in Provinces', in college participated in the` ACM algorithm competition `",
-      "Skilled use of `C language`, understand the commonly used `data structure` and `algorithm`, understand the time complexity of common algorithms, familiar with the common C++ `STL` use",
-      "studied courses about computer networks, operating systems, computer architectures, database systems, data structures and algorithms",
-      "CCF Certified Software Professionals 400/500",
-      "use `Git` for version control, and also willing to try new tools",
-      "Personal experience: in the university as a C language experimental teaching assistant 3 semesters"
+	  "从小学二年级开始接触`Pascal`语言、学习算法与数据结构，初中到高中持续参加`信息学竞赛`，大学参加`ACM算法竞赛`",
+      "熟练使用`C语言`，掌握常用的`数据结构`与`算法`，了解各种算法时间复杂度，熟悉常见的C++`STL`使用",
+      "学习了计算机网络、操作系统、计算机体系结构、数据库系统、数据结构与算法等课程",
+      "CCF软件能力认证 400/500",
+      "日常使用 `Git` 进行版本控制，也乐于尝试新工具",
+      "个人经历：在学校担任C语言实验课助教3个学期"
     ]
   }]
 }
